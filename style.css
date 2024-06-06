@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    height: 70px;
+}
+
+header {
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 15px;
+
+}
+
+nav {
+    position: absolute;
+    right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.input-nav {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.lupa {
+    width: 40px;
+    height: 40px;
+
+}
+
+.button-nav {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.img-section {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+article {
+    width: 35%;
+    position: absolute;
+    bottom: 20%;
+    left: 60px;
+
+
+}
+
+.title-article {
+    font-size: 80px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.p-article {
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    line-height: 28px;
+
+}
+
+.mascara {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(270deg, rgba(34,33,33,1) 25%, rgba(34,33,33,0) 52%, rgba(34,33,33,1) 73%);
+}
+
+
+button {
+    height: 50px;
+    width: 125px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#button-play {
+    margin-right: 30px;
+    background-color: #c2995d;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+
+
+}
+
+
+#button-mas{
+    font-size: 18px;
+    font-weight: bold;
+    width: 230px;
+    border: none;
+}
