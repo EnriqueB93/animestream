@@ -7,10 +7,10 @@
 
 body {
     background-color: rgb(34, 33, 33);
-    width: 100vw;
+                         width: 100vw;
     height: 100vh;
 }
-
+/*  header*/
 .logo {
     height: 40px;
 }
@@ -20,11 +20,10 @@ main{
     height: auto;
 }
 header {
-    margin: 60px;
+    margin: 30px;
     display: flex;
     align-items: center;
     gap: 35px;
-
 
 }
 
